@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>LLM Chat App</title>
+     <link rel = "stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="chat-container">
+    <select class="model-select">
+      <option value="openai/gpt-3.5-turbo">GPT-3.5</option>
+      <option value="mistralai/mistral-7b">Mistral 7B</option>
+      <option value="meta-llama/llama-2-13b-chat">LLaMA 2</option>
+      <option value="google/gemma-7b-it">Gemma 7B</option>
+      <option value="anthropic/claude-instant-v1">Claude Instant</option>
+      <option value="nousresearch/nous-capybara-7b">Capybara 7B</option>
+    </select>
+    <div class="chat-box"></div>
+    <input type="text" class ="user-input" placeholder="Type your message..." />
+    <button class ="send-btn">Send</button>
+  </div>
+    
+    <script src="script.js"></script>
+    </body>
+</html>
