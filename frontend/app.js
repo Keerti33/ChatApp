@@ -27,6 +27,7 @@ window.onload = function() {
   renderMessages();
   userInput.value = '';
   };
+  
 };
 
 sendBtn.onclick = async () => {
